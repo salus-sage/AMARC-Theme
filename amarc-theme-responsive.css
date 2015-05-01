@@ -1,0 +1,631 @@
+ 
+
+
+/* Custom, iPhone Retina */ 
+ 
+    @media only screen and (min-width : 320px) {
+body {
+  background-color:#ecf0f1 ;
+  font-family: sans;
+  color:#444;
+
+}
+button{
+  background-color:transparent;
+  border-color:transparent;
+}
+a{
+  color: #07c137;
+}
+a:hover, a:focus {
+  color: #159435;
+  text-decoration: none;
+}
+#logo {
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-left:-9px;
+}
+#header {
+border-top:15px solid #0090bf;
+}
+#header-banner {
+  height:auto;
+  min-height:45px;
+}
+
+.text-muted {
+  margin-bottom:0px;
+  color:#8794BB;
+  margin-top:5px;
+}
+
+#container{
+padding-top:5px;
+}
+
+#content-container {
+  margin-top:-30px;
+}
+
+h2 {
+  margin-top: 0px;
+  padding-top: 10px;
+  
+}
+.glyphicon-search{
+  left:-5px;
+}
+.input-group {
+  display: block;
+}
+.input-group-btn{
+  position:relative;
+  top:-33px;
+  border:none;
+  background-color:transparent;
+}
+
+.form-control {
+  border-radius:0px;
+  margin-top:5px;
+}
+
+nav {
+  
+  margin:0 auto;
+}
+
+.nav > li {
+margin-bottom: 5px;
+margin-left:5px;
+  margin-top: 10px;
+}
+.nav-pills>li>a {
+  color: #555;
+  border-radius:0px;
+  background-color: #94afb5;
+}
+.nav-pills>li>a:hover {
+  
+    background-color: #b2cfd6;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  min-width:320px;
+  max-width:768px;
+}
+.navbar-collapse{
+  border-top: transparent;
+  padding-left:0px;
+}
+
+.navbar-default .navbar-toggle {
+    position:relative;
+    border-radius:0px;
+    border-color:#0090bf;
+    background-color: transparent;
+}
+ 
+.navbar-default .navbar-toggle:focus {
+  background-color:#0090bf;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color:#0090bf;
+  color:#fff;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:#695802;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li.active a:focus {
+  background-color: #0090bf;
+}
+.widgetWrap {
+  padding: 0px 15px 85px 15px;
+  /*background-color: #AC9C3E;
+  box-shadow:1px 2px 3px;*/
+}
+
+.iframeContainer {
+  position:relative;
+  padding-bottom: 82%;
+  margin-bottom: -140px;
+  margin-top:-52px;
+  overflow: hidden;
+}
+
+#player{
+  margin-top: 10px;
+}
+
+.siteSnippet{
+  height: auto; 
+  border-radius:0px;
+  padding: 0px 10px 10px 10px;
+  border: 1px solid rgba(200,200,200,0.55);
+}
+
+#activityBox{
+  background-color:#FFF;
+ height:auto; 
+ overflow:hidden;
+}
+
+#newsBox{
+  background-color:rgba(148,175,181, 0.4);
+ margin-bottom:10px; 
+  margin-top:10px;
+ height:auto;
+ overflow:hidden;
+}
+
+/*#linksBox {
+  padding-bottom:5px;
+}
+*/
+#linksBox{
+padding-top:5px;
+padding-bottom:0px;
+background-color: #fff;
+  margin-top:15px;
+  height:auto;
+  overflow:hidden;
+}
+#memberRoll {
+  background-color:#fff; 
+  height:auto;
+  overflow:hidden;
+
+
+}
+
+#contactForm {
+  margin-top:5px;
+  height:auto;
+  overflow:hidden;
+  height:356px;
+  /*background-color: #d8b973;*/
+}
+
+.field-item {
+  font-size:20px;
+  font-weight:bolder;
+  color:#000;
+}
+
+.field-items {
+  padding-left:10px;
+  padding-right:10px;
+  text-align:left;
+}
+
+#searchTable tbody{
+  border-top:10px solid #ddd;
+  background-color:#fff;
+}
+/*Directory page - Panel Design */
+.panel{
+  border-radius: 0px;
+/*  border:1px solid #0090bf;*/
+  min-height:300px;
+  background-color:transparent;
+  margin-top:10px;
+}
+
+.label{
+  background-color: #0090bf;
+}
+#resultsInfo{
+  margin:5px auto;
+}
+/* Accordion design
+.panel-group{
+  margin-top:10px;
+}
+.panel-heading{
+  background-color:#bea265;
+  border-radius:0px;
+}
+.panel-body{
+  background-color: #FFF3AF;
+}
+.panel-footer{
+  background-color: #bea265;
+  border-radius:0px;
+}
+*/
+#searchtable tbody  tr  td  {
+  border-top:1px solid #9e8347;
+}
+
+footer {
+  background-color:#0090bf;
+  margin-top:-10px;
+  height: auto;
+  box-shadow:1px 2x 3px;
+  margin-bottom:5px;
+  margin-right:0px;  
+  padding-left:15px;
+  padding-right:15px;
+  border-top: 1px solid #7adeff;
+}
+
+#footer{
+margin-left:15px;
+margin-right:15px;
+}
+.credits {
+  background-color:#c7d5d8;
+  min-height:200px;
+  height:auto;
+}
+.donors {
+  min-height:75px;
+  height:auto;
+  padding: 10px 15px 0px 15px;
+}
+#searchControl {
+  box-shadow: 1px 2px 3px;
+}
+#searchResults{
+  min-height:400px;
+  height:auto;
+}
+#directory-info {
+  position:relative;
+  top:-33px;
+}
+/*Carousel*/
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  /* Control buttons  */
+  /* Previous button  */
+  /* Next button  */
+  /* Changes the position of the indicators */
+  /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+  background: none;
+  color: #CACACA;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+  left: -52px;
+}
+#quote-carousel .carousel-control.right {
+  right: -19px;
+}
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  border: 4px solid #CCC;
+  border-radius: 50px;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+  background: #ccc;
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+  border-color: #fdfeea;
+  opacity: 1;
+  overflow: hidden;
+}
+.carousel-inner {
+  min-height: 300px;
+}
+.item blockquote {
+  border-left: none;
+  margin: 0;
+}
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+
+/*end carousel*/
+
+/*Contact Form Validation design  - Start*/
+
+#form-main{
+  width:100%;
+  float:left;
+  padding-top:0px;
+}
+
+#form-div {
+  background-color:rgba(148,175,181, 0.4);
+  padding-left:10px;
+  padding-right:10px;
+  width: 100%;
+  position: relative;
+height:350px;
+}
+
+.submit {
+  margin-top:-10px;
+  margin-left:10px;
+}
+
+.feedback-input {
+  color:#3c3c3c;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  color:#30aed6;
+  border:#30aed6 solid 3px;
+}
+
+/* Icons
+ * ----------------------------------
+ * */
+#name{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+/*input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color:white;
+}*/
+
+#button-blue{
+  float:left;
+  border: #fbfbfb solid 2px;
+  cursor:pointer;
+  background-color: #3498db;
+  color:white;
+  font-size:20px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+/*#button-blue:hover{
+  background-color: rgba(0,0,0,0);
+  color: #0493bd;
+}*/
+
+.submit:hover {
+  color: #3498db;
+}
+
+.ease {
+  width: 0px;
+  height: 40px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  background-color:white;
+}
+
+.twitter-follow-button {
+position:relative;
+top:5px;
+}
+
+#twtrWrap {
+margin-top:10px;
+}
+
+    }
+
+
+ /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+.navbar-toggle {
+    position:relative;
+    left:10px;
+
+}
+
+#twitter-widget-1 {
+height:345px;
+width:100%;
+}
+        
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+#newsBox{
+  margin-top:10px;
+  margin-right:-10px;
+  height:225px;
+}
+
+#activityBox{
+  margin-top:10px;
+margin-left:-10px;
+height:225px;
+}
+
+#linksBox{
+margin-top:10px;
+margin-left:1px;
+margin-right:-10px;
+}
+
+#player {
+margin-left:-10px;
+margin-right:-2px;
+}
+
+#contactForm{
+margin-top:10px;
+margin-left:-10px;
+height:350px;
+}
+
+#twitter-widget-1 {
+height:345px;
+width:100%;
+}
+
+#memberRoll{
+margin-top:10px;
+/*(background-color:rgba(148,175,181, 0.4);*/
+}
+
+
+#twtrWrap{
+padding-right:3px;
+}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+#newsBox{
+ margin-top:4px;
+ margin-left:-20px;
+ margin-right:0px;
+ height:183px;
+}
+
+#activityBox{
+ margin-top:0px;
+ margin-left:-20px;
+ margin-right:0px;
+ height:183px;
+}
+
+
+#player {
+margin-left:-10px;
+margin-right:-2px;
+}
+
+#contactForm{
+margin-top:11px;
+padding-left:11px;
+margin-right:-10px;
+height:360px;
+
+}
+#memberRoll{
+margin-left:-10px;
+}
+
+#twitter-widget-1 {
+height:350px;
+}
+
+#form-div {
+height:360px;
+}
+
+#twtrWrap {
+margin-top:10px;
+padding-left:0px;
+margin-left:-5px;
+padding-right:7px;
+}
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+#newsBox{
+
+ height:225px;
+}
+
+#activityBox{
+
+ height:220px;
+}
+
+    }
+
+
+
